@@ -1,0 +1,4 @@
+en:
+  rate_limiter:
+    by_type:
+      topics_per_month: "You've reached the maximum number of monthly topics. Please wait %{time_left} before trying again."
