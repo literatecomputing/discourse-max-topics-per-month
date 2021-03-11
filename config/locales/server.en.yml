@@ -2,3 +2,7 @@ en:
   rate_limiter:
     by_type:
       topics_per_month: "You've reached the maximum number of monthly topics. Please wait %{time_left} before trying again."
+
+  site_settings:
+    max_topics_per_month: "Allowed number of topics topics per month"
+    max_topics_per_month_enabled: "Enable max_topics_per_month plugin"
