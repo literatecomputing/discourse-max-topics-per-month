@@ -4,7 +4,7 @@
 # about: limiting number of topics per month
 # version: 0.1
 # authors: pfaffman
-# url: https://github.com/pfaffman/discourse-max-topics-per-month
+# url: https://github.com/literatecomputing/discourse-max-topics-per-month
 
 enabled_site_setting :max_topics_per_month_enabled
 
