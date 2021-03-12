@@ -1,3 +1,5 @@
-{{#if siteSettings.max_topics_per_month_enabled}}
-  {{i18n 'user.remaining_topics_this_month_x' count=currentUser.remaining_topics_this_month}}
-{{/if}}
+{{#unless currentUser.staff}}
+  {{#if siteSettings.max_topics_per_month_enabled_ux}}
+    {{i18n 'month.remaining_topics_this_month_x' count=currentUser.remaining_topics_this_month}}
+  {{/if}}
+{{/unless}}

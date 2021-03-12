@@ -2,5 +2,8 @@ plugins:
   max_topics_per_month_enabled:
     default: true
     client: true
+  max_topics_per_month_enabled_ux:
+    default: true
+    client: true
   max_topics_per_month:
     default: 20

@@ -1,7 +1,7 @@
 en:
   js:
-    user:
+    month:
       remaining_topics_this_month_x:
-        one: "You have one topic remaining this month"
-        zero: "You have no topics remaining this month"
-        other: "You have %{count} topics remaining this month"
+        zero: "None left!"
+        one: "One left!"
+        other: "%{count} remaining"

@@ -6,3 +6,4 @@ en:
   site_settings:
     max_topics_per_month: "Allowed number of topics topics per month"
     max_topics_per_month_enabled: "Enable max_topics_per_month plugin"
+    max_topics_per_month_enabled_ux: "Include remaining topics in UX"
