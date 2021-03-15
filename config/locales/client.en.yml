@@ -2,6 +2,6 @@ en:
   js:
     month:
       remaining_topics_this_month_x:
-        zero: "None left!"
+        #zero: "None left!"
         one: "One left!"
         other: "%{count} remaining"
