@@ -5,7 +5,7 @@ This plugin adds a `max_topics_per_month` site setting. The limit applies to all
 
 ## Tests with travis.
 
-Pending.
+See https://www.travis-ci.com/github/literatecomputing/discourse-max-topics-per-month for evidence that tests pass with current Discourse. Note that right now there needs to be an addional spec that assures that the data added to the serializer is correct.
 
 ## TODO 2021-03-15
 
