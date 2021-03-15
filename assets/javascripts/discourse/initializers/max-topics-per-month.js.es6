@@ -15,7 +15,7 @@ export default {
             return this._super(...arguments);
           }
         }
-      })
-    })
+      });
+    });
   }
-}
+};
