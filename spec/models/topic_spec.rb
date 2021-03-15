@@ -23,13 +23,13 @@ describe Topic do
       create_post(user: user)
       expect { create_post(user: user) }.to raise_error(RateLimiter::LimitExceeded)
     end
-    
+
     it "works in the following month" do
       create_post(user: user)
       freeze_time(Time.now.next_month)
-      
-      expect{ create_post(user: user) }.not_to raise_error
-      expect{ create_post(user: user) }.to raise_error(RateLimiter::LimitExceeded)
+
+      expect { create_post(user: user) }.not_to raise_error
+      expect { create_post(user: user) }.to raise_error(RateLimiter::LimitExceeded)
     end
   end
 end
