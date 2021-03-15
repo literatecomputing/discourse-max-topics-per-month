@@ -3,7 +3,7 @@ plugins:
     default: true
     client: true
   max_topics_per_month_enabled_ux:
-    default: true
+    default: false
     client: true
   max_topics_per_month:
     default: 20
